@@ -1,7 +1,7 @@
 import json
 
 def load_products():
-    with open("data/products.json", "r") as f:
+    with open("data/product_data.json", "r") as f:
         data = json.load(f)
     return data
 

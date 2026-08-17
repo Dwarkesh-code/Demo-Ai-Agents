@@ -40,7 +40,7 @@ Only treat a query as NOT product-related if it is truly unrelated to the shop's
 CASE 2 — Product data is given below (this means product_view was "yes" last time, and the data has now been fetched for you):
 Set product_view = "no" (the data has already been fetched — do not request it again, this stops the loop).
 Using the user's original query and the given product data, write a detailed prompt in the `prompt` field for the response LLM. This prompt must:
-- Include the specific relevant products from the data (name, price, material, availability, link)
+- For EVERY product you mention, you MUST include its exact URL from the product data — do not omit it. Format each suggestion so the response LLM can present the product name as a clickable reference to its link.
 - If the query was vague (e.g. "best product"), pick a few good candidates yourself from the data (e.g. best-sellers, popular categories, well-priced items) and present them as suggestions
 - Tell the response LLM to answer only using this data, not to invent or assume any product detail not present
 - Tell the response LLM to keep the tone friendly and concise, and mention product name + price clearly
