@@ -13,6 +13,8 @@ from main import workflow  # <-- replace with however you expose your compiled g
 
 def extract_text(response):
     """Handles Gemini responses whether .content is a plain string or a list of blocks."""
+    if isinstance(response, str):
+        return response
     content = response.content
     if isinstance(content, str):
         return content

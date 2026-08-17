@@ -12,17 +12,11 @@ llms = [ChatGoogleGenerativeAI(model=name) for name in models]
 llm = main_llm.with_fallbacks(llms)
 
 
-class SimpleResponse:
-    """Lightweight stand-in so extract_text() keeps working unchanged
-    in main.py and streamlit_app.py — it only ever reads .content."""
-    def __init__(self, content):
-        self.content = content
-
-
 def extract_text(response):
-    """Gemini sometimes returns .content as a plain string, sometimes as a
-    list of content blocks (e.g. [{"type": "text", "text": "..."}]).
-    This handles both safely so we never crash on the format."""
+    """Handles all shapes: a plain string, a Gemini response with .content
+    as a string, or .content as a list of blocks."""
+    if isinstance(response, str):
+        return response
     content = response.content
     if isinstance(content, str):
         return content
@@ -64,8 +58,6 @@ User's original query:
 
     answer_text = extract_text(response)
 
-    # Deterministically attach the EXACT links from the original product data.
-    # These never pass through an LLM, so they can never be mistyped.
     selected_products = State.get("selected_products") or []
     if selected_products:
         links_block = "\n\n".join(
@@ -74,9 +66,7 @@ User's original query:
         )
         answer_text = f"{answer_text}\n\n{links_block}"
 
-    final_response = SimpleResponse(answer_text)
-
     return {
-        "response": final_response,
+        "response": answer_text,
         "conversation_history": [f"User: {State['query']}\nAssistant: {answer_text}"]
     }
