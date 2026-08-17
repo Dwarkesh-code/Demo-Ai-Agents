@@ -1,15 +1,31 @@
 from langgraph.graph import StateGraph, START, END
 from dotenv import load_dotenv
-from typing import TypedDict, Optional, Literal
+from typing import TypedDict, Optional, Literal, Annotated
+from operator import add
+import uuid
+import sqlite3
+from langgraph.checkpoint.sqlite import SqliteSaver
 from nodes.product_data_node import product_node
 from nodes.router_llm_node import router_node
 from nodes.responser_node import responser_llm_node
+import os
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+db_path = os.path.join(BASE_DIR, "checkpoint", "checkpointer.db")
+data_path = os.path.join(BASE_DIR, "data", "product_data.json")
+
+#connect
+conn = sqlite3.connect(db_path, check_same_thread=False)
+checkpointer = SqliteSaver(conn=conn)
+
+#uuid
+thread_id = str(uuid.uuid4())
 
 #State 
 class AdronState(TypedDict):
     query : str
     responser_prompt : str
+    conversation_history: Annotated[list[str], add]
     response : str
     product_data : Optional[list[dict]]
     product_view : Literal['yes', 'no']
@@ -40,17 +56,26 @@ graph.add_edge("product", "router")
 graph.add_edge("responser", END)
 
 #workflow
-workflow = graph.compile()
+workflow = graph.compile(checkpointer=checkpointer)
+
+#config
+config = {"configurable": {"thread_id": thread_id}}
 
 if __name__ == "__main__":
-    query = input("query => ").strip()
-    initial_state : AdronState = {
-        "query" : query,
-        "response": "",
-        "product_data": None,
-        "product_view": None,
-        "responser_prompt": None
-    }
+    while True:
 
-    response = workflow.invoke(initial_state)
-    print("Response = ", response)
+        query = input("query => ").strip()
+
+        if query.lower() in ["exit", "quit"]:
+            break
+        
+        initial_state : AdronState = {
+            "query" : query,
+            "response": "",
+            "product_data": None,
+            "product_view": None,
+            "responser_prompt": None
+        }
+
+        response = workflow.invoke(initial_state, config=config)
+        print("Response = ", response["response"].content[0]['text'])

@@ -4,19 +4,28 @@ from langchain_core.prompts import PromptTemplate
 
 load_dotenv()
 
-llm = ChatGoogleGenerativeAI(model="gemini-3.6-flash")
+
+main_llm = ChatGoogleGenerativeAI(model="gemini-3.6-flash")
+models = ["gemini-3-flash", "gemini-2.5-flash", "gemini-3.5-flash"]
+for model_name in models:
+    llms = ChatGoogleGenerativeAI(model=model_name)
+
+llm = main_llm.with_fallbacks(llms)
 
 def responser_llm_node(State) -> dict : 
     prompt = PromptTemplate.from_template("""You are the customer-facing assistant for Hello Adorn, a handmade jewelry shop.
+
+Conversation history so far:
+{conversation_history}
 
 You will be given a prompt/instruction below, written specifically for this response. Follow it exactly — it already contains everything you need (product details, or guidance for a general reply).
 
 Rules:
 - Only use the information given in the instruction below. Do not invent product names, prices, materials, or availability that aren't explicitly mentioned.
+- Use the conversation history for context if the user refers back to something discussed earlier.
 - Keep the tone warm, friendly, and concise — like a helpful shop assistant, not a corporate bot.
-- If product links are provided, include them naturally.
+- If product links are provided, always include them (as markdown links).
 - Do not mention that you are following instructions or that this is a generated prompt — just respond naturally to the user.
--If product links are provided in the instruction, always include them in your response (as markdown links or plain URLs)." Yeh already thi ("If product links are provided, include them naturally")
 
 Instruction:
 {responser_prompt}
@@ -25,7 +34,10 @@ User's original query:
 {query}""")
 
     chain = prompt | llm
-    response = chain.invoke({"responser_prompt": State["responser_prompt"], "query": State["query"]})
+    response = chain.invoke({"conversation_history":State["conversation_history"],"responser_prompt": State["responser_prompt"], "query": State["query"]})
 
-    return {"response": response}
+    return {
+    "response": response,
+    "conversation_history": [f"User: {State['query']}\nAssistant: {response.content[0]['text']}"]
+}
 
