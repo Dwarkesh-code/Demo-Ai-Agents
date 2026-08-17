@@ -7,8 +7,7 @@ load_dotenv()
 
 main_llm = ChatGoogleGenerativeAI(model="gemini-3.6-flash")
 models = ["gemini-3-flash", "gemini-2.5-flash", "gemini-3.5-flash"]
-for model_name in models:
-    llms = ChatGoogleGenerativeAI(model=model_name)
+llms = [ChatGoogleGenerativeAI(model=name) for name in models]
 
 llm = main_llm.with_fallbacks(llms)
 

@@ -10,8 +10,7 @@ load_dotenv()
 
 main_llm = ChatGoogleGenerativeAI(model="gemini-3.5-flash-lite")
 models = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite"]
-for model_name in models:
-    llms = ChatGoogleGenerativeAI(model=model_name)
+llms = [ChatGoogleGenerativeAI(model=name) for name in models]
 
 router_llm = main_llm.with_fallbacks(llms)
 
