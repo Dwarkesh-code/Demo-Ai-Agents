@@ -1,0 +1,23 @@
+# --- Secrets / local config ---
+.env
+.streamlit/secrets.toml
+
+# --- Generated DB (rebuilt on startup from .sql) ---
+shuddh_swad.db
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- IDE ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Streamlit ---
+.streamlit/
