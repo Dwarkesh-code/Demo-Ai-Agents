@@ -11,7 +11,23 @@ llms = [ChatGoogleGenerativeAI(model=name) for name in models]
 
 llm = main_llm.with_fallbacks(llms)
 
-def responser_llm_node(State) -> dict : 
+
+def extract_text(response):
+    """Gemini sometimes returns .content as a plain string, sometimes as a
+    list of content blocks (e.g. [{"type": "text", "text": "..."}]).
+    This handles both safely so we never crash on the format."""
+    content = response.content
+    if isinstance(content, str):
+        return content
+    elif isinstance(content, list) and len(content) > 0:
+        first = content[0]
+        if isinstance(first, dict) and "text" in first:
+            return first["text"]
+        return str(first)
+    return str(content)
+
+
+def responser_llm_node(State) -> dict:
     prompt = PromptTemplate.from_template("""You are the customer-facing assistant for Hello Adorn, a handmade jewelry shop.
 
 Conversation history so far:
@@ -33,10 +49,15 @@ User's original query:
 {query}""")
 
     chain = prompt | llm
-    response = chain.invoke({"conversation_history":State["conversation_history"],"responser_prompt": State["responser_prompt"], "query": State["query"]})
+    response = chain.invoke({
+        "conversation_history": State["conversation_history"],
+        "responser_prompt": State["responser_prompt"],
+        "query": State["query"]
+    })
+
+    answer_text = extract_text(response)
 
     return {
-    "response": response,
-    "conversation_history": [f"User: {State['query']}\nAssistant: {response.content[0]['text']}"]
-}
-
+        "response": response,
+        "conversation_history": [f"User: {State['query']}\nAssistant: {answer_text}"]
+    }
