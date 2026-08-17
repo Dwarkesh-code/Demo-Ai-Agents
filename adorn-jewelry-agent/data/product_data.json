@@ -2,287 +2,412 @@
   "shop": "Hello Adorn",
   "shop_url": "https://adornjewelry.myshopify.com",
   "currency": "USD",
-  "total_products": 28,
   "products": [
     {
-      "name": "Supermoon Necklace",
-      "category": "Necklaces",
-      "price_usd": 88.0,
-      "available": true,
-      "material": "14kt Gold Fill",
-      "size": "1/2\"",
-      "length": "16\"",
-      "url": "https://adornjewelry.myshopify.com/products/supermoon-necklace"
-    },
-    {
-      "name": "Sand Beaded Necklace",
-      "category": "Necklaces",
-      "price_usd": 112.0,
-      "available": true,
-      "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/sand-necklace"
-    },
-    {
-      "name": "Esme Necklace",
-      "category": "Necklaces",
-      "price_usd": 56.0,
-      "available": false,
-      "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/esme-necklace"
-    },
-    {
-      "name": "Ezra Lariat",
-      "category": "Necklaces",
-      "price_usd": 56.0,
-      "available": false,
-      "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/ezra-lariat"
-    },
-    {
-      "name": "Julep Ring",
+      "name": "Squiggle Ring",
       "category": "Rings",
-      "price_usd": 88.0,
-      "available": true,
+      "price_usd": 56.0,
       "material": "14kt Gold Fill",
-      "size": "US 5",
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/julep-ring"
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/squiggle-ring"
     },
     {
-      "name": "Shadow Threaders",
-      "category": "Earrings",
-      "price_usd": 98.0,
-      "available": true,
+      "name": "Swell Ring",
+      "category": "Rings",
+      "price_usd": 62.0,
       "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/shadow-threaders"
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/swell-ring"
     },
     {
-      "name": "Shadow Hoops",
-      "category": "Earrings",
-      "price_usd": 74.0,
-      "available": false,
+      "name": "Echo Ring",
+      "category": "Rings",
+      "price_usd": 70.0,
       "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/shadow-hoops"
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/echo-ring"
     },
     {
-      "name": "Desert Drops",
-      "category": "Earrings",
-      "price_usd": 66.0,
-      "available": true,
+      "name": "Flow Ring",
+      "category": "Rings",
+      "price_usd": 48.0,
       "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/desert-drops"
-    },
-    {
-      "name": "Desert Chain Threaders",
-      "category": "Earrings",
-      "price_usd": 64.0,
-      "available": false,
-      "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/desert-chain-threaders"
-    },
-    {
-      "name": "Dune Necklace",
-      "category": "Necklaces",
-      "price_usd": 54.0,
-      "available": false,
-      "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/dune-necklace"
-    },
-    {
-      "name": "Sand Threaders",
-      "category": "Earrings",
-      "price_usd": 42.0,
-      "available": false,
-      "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/sand-threaders"
-    },
-    {
-      "name": "Loveline Lariat",
-      "category": "Necklaces",
-      "price_usd": 108.0,
-      "available": true,
-      "material": "14kt Gold Fill",
-      "size": "Lover Charm",
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/loveline-lariat"
-    },
-    {
-      "name": "Make Me Blush Necklace",
-      "category": "Necklaces",
-      "price_usd": 76.0,
-      "available": false,
-      "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/make-me-blush-necklace"
-    },
-    {
-      "name": "Rosalie Necklace",
-      "category": "Necklaces",
-      "price_usd": 98.0,
-      "available": true,
-      "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/rosalie-necklace"
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/flow-ring"
     },
     {
       "name": "Rosalie Ring",
       "category": "Rings",
-      "price_usd": 78.0,
-      "available": false,
+      "price_usd": 76.0,
       "material": "14kt Gold Fill",
-      "size": "US 5",
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/rosalie-ring"
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/rosalie-ring"
     },
     {
-      "name": "Sloane Necklace",
-      "category": "Necklaces",
-      "price_usd": 70.0,
-      "available": true,
+      "name": "Teeny-Tiny Band",
+      "category": "Rings",
+      "price_usd": 24.0,
       "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/sloane-necklace"
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/teeny-tiny-bands"
+    },
+    {
+      "name": "Bold Initial Band",
+      "category": "Rings",
+      "price_usd": 94.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/bold-initial-band"
+    },
+    {
+      "name": "Aria Ring",
+      "category": "Rings",
+      "price_usd": 88.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/aria-ring"
     },
     {
       "name": "Wild Heart Ring",
       "category": "Rings",
-      "price_usd": 72.0,
-      "available": true,
-      "material": "14kt Gold Fill",
-      "size": "US 5",
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/wild-heart-ring"
-    },
-    {
-      "name": "Laredo Lariat",
-      "category": "Necklaces",
-      "price_usd": 298.0,
-      "available": false,
-      "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/laredo-lariat"
-    },
-    {
-      "name": "Sloane Chain Ring",
-      "category": "Rings",
-      "price_usd": 46.0,
-      "available": false,
-      "material": "14kt Gold Fill",
-      "size": "US 5",
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/sloane-chain-pearl-ring"
-    },
-    {
-      "name": "Izzy Annex Studs",
-      "category": "Earrings",
-      "price_usd": 76.0,
-      "available": false,
-      "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/izzy-annex"
-    },
-    {
-      "name": "Seafoam Gemma Arch Threaders",
-      "category": "Earrings",
-      "price_usd": 50.0,
-      "available": false,
-      "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/seafoam-gemma-arch-threaders"
-    },
-    {
-      "name": "Ophelia Band",
-      "category": "Rings",
-      "price_usd": 54.0,
-      "available": false,
-      "material": "14kt Gold Fill",
-      "size": "US 5",
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/ophelia-band"
-    },
-    {
-      "name": "Lana Linked Necklace",
-      "category": "Necklaces",
       "price_usd": 66.0,
-      "available": false,
       "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/lana-linked-necklace"
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/wild-heart-ring"
     },
     {
-      "name": "Twisted Swell Ring",
+      "name": "Confetti Ring",
       "category": "Rings",
-      "price_usd": 64.0,
-      "available": false,
+      "price_usd": 50.0,
       "material": "14kt Gold Fill",
-      "size": "US 5",
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/twisted-swell-ring"
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/confetti-ring"
     },
     {
-      "name": "Maui Chain Ring",
+      "name": "Moonbeam Ring",
       "category": "Rings",
-      "price_usd": 48.0,
-      "available": true,
+      "price_usd": 88.0,
       "material": "14kt Gold Fill",
-      "size": "US 5",
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/maui-chain-ring"
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/moonbeam-ring"
     },
     {
-      "name": "Cher Backdrop",
-      "category": "Earrings",
-      "price_usd": 76.0,
-      "available": false,
+      "name": "Julep Ring",
+      "category": "Rings",
+      "price_usd": 80.0,
       "material": "14kt Gold Fill",
-      "size": null,
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/cher-backdrops"
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/julep-ring"
+    },
+    {
+      "name": "Ivy Initial Ring",
+      "category": "Rings",
+      "price_usd": 52.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/ivy-initial-ring"
+    },
+    {
+      "name": "Cobra Ring",
+      "category": "Rings",
+      "price_usd": 42.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/cobra-ring"
     },
     {
       "name": "Poppy Ring",
       "category": "Rings",
-      "price_usd": 108.0,
-      "available": true,
-      "material": "Round 6mm",
-      "size": "14kt Gold Fill",
-      "length": "US 5",
-      "url": "https://adornjewelry.myshopify.com/products/poppy-ring"
+      "price_usd": 80.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/poppy-ring"
     },
     {
-      "name": "Raye Ring",
+      "name": "Tiny Hammered Band",
       "category": "Rings",
-      "price_usd": 62.0,
-      "available": true,
+      "price_usd": 26.0,
       "material": "14kt Gold Fill",
-      "size": "US 5",
-      "length": null,
-      "url": "https://adornjewelry.myshopify.com/products/raye-ring"
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/hammered-tiny-band"
+    },
+    {
+      "name": "Glisten Ring",
+      "category": "Rings",
+      "price_usd": 78.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/glisten-ring"
+    },
+    {
+      "name": "Sloane Chain Ring",
+      "category": "Rings",
+      "price_usd": 42.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/sloane-chain-pearl-ring"
+    },
+    {
+      "name": "Nora Ring",
+      "category": "Rings",
+      "price_usd": 52.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/rings/products/nora-ring"
+    },
+    {
+      "name": "Spell Pendant Necklace",
+      "category": "Necklaces",
+      "price_usd": 130.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/spell-pendant-necklace"
+    },
+    {
+      "name": "Tiny Links Necklace",
+      "category": "Necklaces",
+      "price_usd": 54.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/tiny-links-necklace"
+    },
+    {
+      "name": "Tiny Dot Necklace",
+      "category": "Necklaces",
+      "price_usd": 50.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/tiny-dot-initial-necklace"
+    },
+    {
+      "name": "Herra Chain",
+      "category": "Necklaces",
+      "price_usd": 98.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/herra-chain"
+    },
+    {
+      "name": "Birdie Initial Necklace",
+      "category": "Necklaces",
+      "price_usd": 46.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/birdie-initial-necklace"
+    },
+    {
+      "name": "Satellite Chain",
+      "category": "Necklaces",
+      "price_usd": 84.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/satellite-chain-gold-or-silver"
+    },
+    {
+      "name": "Maeve Chain",
+      "category": "Necklaces",
+      "price_usd": 62.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/maeve-chain"
+    },
+    {
+      "name": "Mari Chain",
+      "category": "Necklaces",
+      "price_usd": 62.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/mari-chain"
+    },
+    {
+      "name": "Mini Moon Pendant",
+      "category": "Necklaces",
+      "price_usd": 58.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/mini-moon-pendant"
+    },
+    {
+      "name": "Mari Choker",
+      "category": "Necklaces",
+      "price_usd": 60.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/mari-choker-1"
+    },
+    {
+      "name": "Lace Choker",
+      "category": "Necklaces",
+      "price_usd": 48.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/lace-choker-1"
+    },
+    {
+      "name": "Lenny Chain",
+      "category": "Necklaces",
+      "price_usd": 74.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/lenny-chain-1"
+    },
+    {
+      "name": "Cali Necklace",
+      "category": "Necklaces",
+      "price_usd": 68.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/cali-necklace"
+    },
+    {
+      "name": "Demi Chain",
+      "category": "Necklaces",
+      "price_usd": 64.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/demi-chain"
+    },
+    {
+      "name": "Goldie Chain",
+      "category": "Necklaces",
+      "price_usd": 82.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/goldie-chain"
+    },
+    {
+      "name": "Cece Initial Necklace",
+      "category": "Necklaces",
+      "price_usd": 44.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/draft-cece-initial-necklace"
+    },
+    {
+      "name": "Linked Necklace",
+      "category": "Necklaces",
+      "price_usd": 64.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/linked-necklace"
+    },
+    {
+      "name": "Rio Chain",
+      "category": "Necklaces",
+      "price_usd": 64.0,
+      "material": "Sterling Silver",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/rio-chain"
+    },
+    {
+      "name": "Cove Pendant Necklace",
+      "category": "Necklaces",
+      "price_usd": 58.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/cove-pendant-necklace"
+    },
+    {
+      "name": "Lenny Choker",
+      "category": "Necklaces",
+      "price_usd": 70.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/necklaces/products/lenny-choker"
+    },
+    {
+      "name": "Trace Ear Climbers",
+      "category": "Earrings",
+      "price_usd": 38.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/trace-ear-climbers"
+    },
+    {
+      "name": "Shadow Threaders",
+      "category": "Earrings",
+      "price_usd": 90.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/shadow-threaders"
+    },
+    {
+      "name": "Desert Drops",
+      "category": "Earrings",
+      "price_usd": 60.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/desert-drops"
+    },
+    {
+      "name": "Tiny Twist Earrings",
+      "category": "Earrings",
+      "price_usd": 32.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/tiny-twist-earrings"
+    },
+    {
+      "name": "Moonlight Huggie Hoops",
+      "category": "Earrings",
+      "price_usd": 68.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/moonlight-huggie-hoops"
+    },
+    {
+      "name": "Drift Posts",
+      "category": "Earrings",
+      "price_usd": 38.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/drift-posts"
+    },
+    {
+      "name": "Sweetheart Slides",
+      "category": "Earrings",
+      "price_usd": 34.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/sweetheart-slides"
+    },
+    {
+      "name": "Mystic Studs",
+      "category": "Earrings",
+      "price_usd": 48.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/marquise-labradorite-studs"
+    },
+    {
+      "name": "Double Up Ear Cuff",
+      "category": "Earrings",
+      "price_usd": 28.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/double-up-ear-cuff"
+    },
+    {
+      "name": "Demi Annex Studs",
+      "category": "Earrings",
+      "price_usd": 64.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/demi-annex-studs"
+    },
+    {
+      "name": "Cove Hoops",
+      "category": "Earrings",
+      "price_usd": 84.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/cove-hoops"
+    },
+    {
+      "name": "Seafoam Gemma Arch Threaders",
+      "category": "Earrings",
+      "price_usd": 46.0,
+      "material": "Sterling Silver",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/seafoam-gemma-arch-threaders"
+    },
+    {
+      "name": "Tiny Hoops",
+      "category": "Earrings",
+      "price_usd": 28.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/tiny-hoops"
+    },
+    {
+      "name": "Star Threaders",
+      "category": "Earrings",
+      "price_usd": 48.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/star-earrings"
+    },
+    {
+      "name": "Palisade Drops",
+      "category": "Earrings",
+      "price_usd": 88.0,
+      "material": "Sterling Silver",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/palisade-drops"
+    },
+    {
+      "name": "Tiny Wave Ear Climbers",
+      "category": "Earrings",
+      "price_usd": 34.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/tiny-wave-ear-climbers"
+    },
+    {
+      "name": "Open Heart Posts",
+      "category": "Earrings",
+      "price_usd": 38.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/open-heart-posts"
+    },
+    {
+      "name": "Palisade Hoops",
+      "category": "Earrings",
+      "price_usd": 108.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/palisade-hoops"
+    },
+    {
+      "name": "Twisted Tiny Twist Earrings",
+      "category": "Earrings",
+      "price_usd": 34.0,
+      "material": "14kt Gold Fill",
+      "url": "https://adornjewelry.myshopify.com/collections/earrings/products/twisted-tiny-twist-earrings-1"
     }
   ]
 }
