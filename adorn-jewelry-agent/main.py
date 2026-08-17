@@ -29,6 +29,7 @@ class AdronState(TypedDict):
     response: str
     product_data: Optional[list[dict]]
     product_view: Literal['yes', 'no']
+    selected_products: Optional[list[dict]]
 
 #graph
 graph = StateGraph(AdronState)

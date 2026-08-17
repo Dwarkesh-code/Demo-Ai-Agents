@@ -12,6 +12,13 @@ llms = [ChatGoogleGenerativeAI(model=name) for name in models]
 llm = main_llm.with_fallbacks(llms)
 
 
+class SimpleResponse:
+    """Lightweight stand-in so extract_text() keeps working unchanged
+    in main.py and streamlit_app.py — it only ever reads .content."""
+    def __init__(self, content):
+        self.content = content
+
+
 def extract_text(response):
     """Gemini sometimes returns .content as a plain string, sometimes as a
     list of content blocks (e.g. [{"type": "text", "text": "..."}]).
@@ -39,7 +46,7 @@ Rules:
 - Only use the information given in the instruction below. Do not invent product names, prices, materials, or availability that aren't explicitly mentioned.
 - Use the conversation history for context if the user refers back to something discussed earlier.
 - Keep the tone warm, friendly, and concise — like a helpful shop assistant, not a corporate bot.
-- If product links are provided, always include them (as markdown links).
+- Do NOT write, type, or invent any link or URL anywhere in your response. Links are attached automatically after your text — just talk about the products naturally.
 - Do not mention that you are following instructions or that this is a generated prompt — just respond naturally to the user.
 
 Instruction:
@@ -57,7 +64,19 @@ User's original query:
 
     answer_text = extract_text(response)
 
+    # Deterministically attach the EXACT links from the original product data.
+    # These never pass through an LLM, so they can never be mistyped.
+    selected_products = State.get("selected_products") or []
+    if selected_products:
+        links_block = "\n\n".join(
+            f"- [{p['name']}]({p['url']}) — ${p['price_usd']:.0f}, {p['material']}"
+            for p in selected_products
+        )
+        answer_text = f"{answer_text}\n\n{links_block}"
+
+    final_response = SimpleResponse(answer_text)
+
     return {
-        "response": response,
+        "response": final_response,
         "conversation_history": [f"User: {State['query']}\nAssistant: {answer_text}"]
     }
