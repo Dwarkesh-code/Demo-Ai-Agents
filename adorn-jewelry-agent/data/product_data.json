@@ -1,0 +1,288 @@
+{
+  "shop": "Hello Adorn",
+  "shop_url": "https://adornjewelry.myshopify.com",
+  "currency": "USD",
+  "total_products": 28,
+  "products": [
+    {
+      "name": "Supermoon Necklace",
+      "category": "Necklaces",
+      "price_usd": 88.0,
+      "available": true,
+      "material": "14kt Gold Fill",
+      "size": "1/2\"",
+      "length": "16\"",
+      "url": "https://adornjewelry.myshopify.com/products/supermoon-necklace"
+    },
+    {
+      "name": "Sand Beaded Necklace",
+      "category": "Necklaces",
+      "price_usd": 112.0,
+      "available": true,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/sand-necklace"
+    },
+    {
+      "name": "Esme Necklace",
+      "category": "Necklaces",
+      "price_usd": 56.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/esme-necklace"
+    },
+    {
+      "name": "Ezra Lariat",
+      "category": "Necklaces",
+      "price_usd": 56.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/ezra-lariat"
+    },
+    {
+      "name": "Julep Ring",
+      "category": "Rings",
+      "price_usd": 88.0,
+      "available": true,
+      "material": "14kt Gold Fill",
+      "size": "US 5",
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/julep-ring"
+    },
+    {
+      "name": "Shadow Threaders",
+      "category": "Earrings",
+      "price_usd": 98.0,
+      "available": true,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/shadow-threaders"
+    },
+    {
+      "name": "Shadow Hoops",
+      "category": "Earrings",
+      "price_usd": 74.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/shadow-hoops"
+    },
+    {
+      "name": "Desert Drops",
+      "category": "Earrings",
+      "price_usd": 66.0,
+      "available": true,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/desert-drops"
+    },
+    {
+      "name": "Desert Chain Threaders",
+      "category": "Earrings",
+      "price_usd": 64.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/desert-chain-threaders"
+    },
+    {
+      "name": "Dune Necklace",
+      "category": "Necklaces",
+      "price_usd": 54.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/dune-necklace"
+    },
+    {
+      "name": "Sand Threaders",
+      "category": "Earrings",
+      "price_usd": 42.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/sand-threaders"
+    },
+    {
+      "name": "Loveline Lariat",
+      "category": "Necklaces",
+      "price_usd": 108.0,
+      "available": true,
+      "material": "14kt Gold Fill",
+      "size": "Lover Charm",
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/loveline-lariat"
+    },
+    {
+      "name": "Make Me Blush Necklace",
+      "category": "Necklaces",
+      "price_usd": 76.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/make-me-blush-necklace"
+    },
+    {
+      "name": "Rosalie Necklace",
+      "category": "Necklaces",
+      "price_usd": 98.0,
+      "available": true,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/rosalie-necklace"
+    },
+    {
+      "name": "Rosalie Ring",
+      "category": "Rings",
+      "price_usd": 78.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": "US 5",
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/rosalie-ring"
+    },
+    {
+      "name": "Sloane Necklace",
+      "category": "Necklaces",
+      "price_usd": 70.0,
+      "available": true,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/sloane-necklace"
+    },
+    {
+      "name": "Wild Heart Ring",
+      "category": "Rings",
+      "price_usd": 72.0,
+      "available": true,
+      "material": "14kt Gold Fill",
+      "size": "US 5",
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/wild-heart-ring"
+    },
+    {
+      "name": "Laredo Lariat",
+      "category": "Necklaces",
+      "price_usd": 298.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/laredo-lariat"
+    },
+    {
+      "name": "Sloane Chain Ring",
+      "category": "Rings",
+      "price_usd": 46.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": "US 5",
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/sloane-chain-pearl-ring"
+    },
+    {
+      "name": "Izzy Annex Studs",
+      "category": "Earrings",
+      "price_usd": 76.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/izzy-annex"
+    },
+    {
+      "name": "Seafoam Gemma Arch Threaders",
+      "category": "Earrings",
+      "price_usd": 50.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/seafoam-gemma-arch-threaders"
+    },
+    {
+      "name": "Ophelia Band",
+      "category": "Rings",
+      "price_usd": 54.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": "US 5",
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/ophelia-band"
+    },
+    {
+      "name": "Lana Linked Necklace",
+      "category": "Necklaces",
+      "price_usd": 66.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/lana-linked-necklace"
+    },
+    {
+      "name": "Twisted Swell Ring",
+      "category": "Rings",
+      "price_usd": 64.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": "US 5",
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/twisted-swell-ring"
+    },
+    {
+      "name": "Maui Chain Ring",
+      "category": "Rings",
+      "price_usd": 48.0,
+      "available": true,
+      "material": "14kt Gold Fill",
+      "size": "US 5",
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/maui-chain-ring"
+    },
+    {
+      "name": "Cher Backdrop",
+      "category": "Earrings",
+      "price_usd": 76.0,
+      "available": false,
+      "material": "14kt Gold Fill",
+      "size": null,
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/cher-backdrops"
+    },
+    {
+      "name": "Poppy Ring",
+      "category": "Rings",
+      "price_usd": 108.0,
+      "available": true,
+      "material": "Round 6mm",
+      "size": "14kt Gold Fill",
+      "length": "US 5",
+      "url": "https://adornjewelry.myshopify.com/products/poppy-ring"
+    },
+    {
+      "name": "Raye Ring",
+      "category": "Rings",
+      "price_usd": 62.0,
+      "available": true,
+      "material": "14kt Gold Fill",
+      "size": "US 5",
+      "length": null,
+      "url": "https://adornjewelry.myshopify.com/products/raye-ring"
+    }
+  ]
+}
